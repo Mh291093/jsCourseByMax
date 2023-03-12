@@ -43,3 +43,21 @@ ex: Addition +
     Modulus %    yields remainder   ex: 7%4 = 3
     Exponentiation **               ex: 2**3 = 8
 */
+
+// Video No. = 23 "Data Types: Numbers & Strings"
+/*
+numbers: important for calculations                     ex: (2,58.17,-6)
+strings: important for outputting and inputting results ex: ("m",'x',`y`)
+*/
+
+// Video No. = 24 "Using Constants"
+/*
+js code would be excuted from top to bottom 'line by line'
+ex:
+const x = 0;
+let y = x;      copy the value which is inside constant not constant itself
+y = x + 5;      change the value of variable not constant
+console.log()
+*/
+
+
