@@ -60,4 +60,12 @@ y = x + 5;      change the value of variable not constant
 console.log()
 */
 
-
+// Video No. = 26 "Introducing Functions"
+/*
+Function : code on demand
+Ex:
+function funcName (parameters){
+    body of function
+}
+funcName(arguments);  call function
+*/
