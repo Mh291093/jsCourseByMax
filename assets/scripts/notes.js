@@ -69,3 +69,38 @@ function funcName (parameters){
 }
 funcName(arguments);  call function
 */
+
+// Video No. = 31 "Scope"
+/*
+you can't access variable inside function in global scope even if call function
+Ex:
+function anything(number) {
+    let word = number;
+    console.log(word);
+}
+console.log(word);    # ReferenceError
+
+you can access any variable inside global in function
+Ex:
+let age = 0;
+function word() {
+    console.log(age);
+}
+word();               # 0
+*/
+
+// Article No. = 32 "Shadowed Variables"
+/* Ex:
+let userName = "X";
+function greeting(name) {
+    let userName = name;
+    console.log(userName);        # M
+}
+console.log(userName);            # X
+greeting("M");
+*/
+
+// Video No. = 33 "Return Statement"
+/*
+return keyword ends the excution of the function
+*/
