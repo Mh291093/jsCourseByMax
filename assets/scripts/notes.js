@@ -104,3 +104,17 @@ greeting("M");
 /*
 return keyword ends the excution of the function
 */
+
+/* Ex in excution indirect function:
+
+function double(x){
+    return x * 2;
+}
+function transform(num, fn){
+    return fn(num);
+}
+
+let result = transform(10, double);
+console.log(result);
+*/
+
