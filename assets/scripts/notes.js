@@ -149,3 +149,25 @@ ex3: let isLoggedIn = "";
 const shoppingCart = isLoggedIn && ["books"];
 console.log(shoppingCart);   => "" empty string
 */
+
+/*
+- switch takes expression that yields a value not condition like if statement
+- using for equality check key to case value
+- switch (key) {    // key is a variable or expression
+    case value: excute if true;   // here check if key === value
+    break;   // optional built in keyword in JS told us stop check and end switch
+    if don't write a break keyword will excute the second case
+    default: will excute when all cases above is not met like else
+}
+
+ex: let urName = 1;
+switch (urName) {
+  case 1:
+    console.log("x");
+  case 2:
+    console.log("y");      // output => x & y
+    break;
+  case 3:
+    console.log("z");
+}
+*/
