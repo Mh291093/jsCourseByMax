@@ -118,3 +118,34 @@ let result = transform(10, double);
 console.log(result);
 */
 
+/* coercion logical operator to yield boolean value
+* !! => double bang operator
+ex: console.log(!!"");  => false
+ex: console.log(!"");  => true
+ex: console.log("");  => "" empty value
+
+* Default value assignment via OR operator ||
+ex: let someInput = prompt("enter your name: ");
+let yourName = someInput || "Mo";
+console.log(yourName); => based on user input
+
+- if user press ok or cancel will yield default value = Mo
+if first value is falsy will return second value which is truthy
+
+* use value if condition is true via AND operator &&
+- will ckeck on two values if both values are true, will always
+return the second value, while if the first value is false will return
+the first value
+
+ex1: let isLoggedIn = true;
+const shoppingCart = isLoggedIn && ["books"];
+console.log(shoppingCart);   => ["books"]
+
+ex2: let isLoggedIn = false;
+const shoppingCart = isLoggedIn && ["books"];
+console.log(shoppingCart);   => false
+
+ex3: let isLoggedIn = "";
+const shoppingCart = isLoggedIn && ["books"];
+console.log(shoppingCart);   => "" empty string
+*/
