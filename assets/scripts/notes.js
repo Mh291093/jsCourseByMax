@@ -171,3 +171,38 @@ switch (urName) {
     console.log("z");
 }
 */
+/*
+let uname = "Mo";
+function greet() {
+  let uname = "x"; // shadowed variables
+  let age = 29;
+  console.log(uname); // x
+}
+
+console.log(age); // can't access variables inside - block scope & function scope -
+console.log(uname); // Mo
+greet();
+*/
+/* var keyword can access variables that inside block scope like if(), for()
+var uname = "Mo";
+var uname = "y"; // can redeclaring
+function greet() {
+  var uname = "x";
+  var age = 29;
+  console.log(uname); // x
+}
+
+console.log(age); // can't access variables inside - function scope -
+console.log(uname); // y
+greet();
+*/
+/* var : do Hoisting js engine pulls variables to top without initialize it and
+assign a value - undefined -
+console.log(userName);  // undefined
+var userName = "Mo";
+*/
+/*
+"use strict"; // to avoid bad behaviours from js
+userName = "Mo";
+console.log(userName); // Mo if there is not "use strict";
+*/
